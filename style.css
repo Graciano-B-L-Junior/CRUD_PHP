@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 64px;
+	background-color: #03a9f4;
+}
+header h2{
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+header a{
+	display: block;
+	padding-top: 15px;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+.content{
+	width: 100%;
+	padding: 0 2%;
+}
+.box-info{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.box-info table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+.box-info tr:nth-of-type(1){
+	background: #ff9800;
+}
+
+.box-info tr:nth-of-type(1) td{
+	color: white;
+}
+
+.box-info table td{
+	text-align: center;
+}
+
+.box-info table td:nth-of-type(3){
+	width: 30%;
+	
+}
+
+.info-list td{
+	border-bottom: 1px solid #ccc;
+}
+.box-cadastro{
+	margin-top: 15px;
+	width: 120px;
+	height: 54px;
+	background: #ff9800;
+	box-shadow:  0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.box-cadastro a{
+	display: block;
+	padding-top: 15px;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.box-voltar{
+	background-clip: content-box;
+	margin-left: 15px;
+	width: 74px;
+	height: 54px;
+	background: #ff9800;
+	box-shadow:  0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.box-info h2{
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+label{
+	width: 100%;
+	display: block;
+	margin-top:5px;
+}
+input{
+	width: 100%;
+	display: block;
+	margin-top:5px;
+	height: 40px;
+	font-size: 16px;
+}
+
+input[type=submit]{
+	background: #ff9800;
+	box-shadow:  0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+	border:none;
+	cursor: pointer;
+	color: white;
+}
+.alerta{
+	width: 100%;
+	height: 50px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding-top: 15px; 
+	border-radius: 35px;
+}
+.sucesso{
+	width: 100%;
+	height: 50px;
+	background: green;
+	color: white;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding-top: 15px; 
+	border-radius: 35px;
+}
